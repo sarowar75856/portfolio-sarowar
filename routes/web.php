@@ -4,5 +4,5 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('frontend.master.master');
+    return view('frontend.master.index');
 });
